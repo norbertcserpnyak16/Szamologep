@@ -14,10 +14,10 @@ namespace Szamologep
 			double a = double.Parse(Console.ReadLine());
 			Console.WriteLine("Írj be még egy számot!");
 			double b = double.Parse(Console.ReadLine());
-			double ab = a + b;
-			double ab2 = a - b;
-			double ab3 = a * b;
-			double ab4 = a / b;
+			double ab = Math.Round(a + b, 4);
+			double ab2 = Math.Round(a - b, 4);
+			double ab3 = Math.Round(a * b, 4);
+			double ab4 = Math.Round(a / b, 4);
 
 			//Változókkal való müveletek eredményének a kiiratása!
 			Console.WriteLine($"Ez az A és B változó összeadásának eredménye: {ab}");
