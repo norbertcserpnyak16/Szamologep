@@ -8,11 +8,6 @@ namespace Szamologep
 
 		static void Main(string[] args)
 		{
-			//Stringek bekérése és kiiratása!
-			//Console.WriteLine("Írj be egy szót!");
-			//string y = Console.ReadLine();
-			//Console.ReadKey();
-			//Console.WriteLine("Az általad bekért Stringek:" + y);
 
 			//változókkal való műveletek!
 			Console.WriteLine("Írj be egy számot!");
