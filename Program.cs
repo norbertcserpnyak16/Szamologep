@@ -16,13 +16,13 @@ namespace Szamologep
 
 			//változókkal való műveletek!
 			Console.WriteLine("Írj be egy számot!");
-			int a = int.Parse(Console.ReadLine());
+			double a = double.Parse(Console.ReadLine());
 			Console.WriteLine("Írj be még egy számot!");
-			int b = int.Parse(Console.ReadLine());
-			int ab = a + b;
-			int ab2 = a - b;
-			int ab3 = a * b;
-			int ab4 = a / b;
+			double b = double.Parse(Console.ReadLine());
+			double ab = a + b;
+			double ab2 = a - b;
+			double ab3 = a * b;
+			double ab4 = a / b;
 
 			//Változókkal való müveletek eredményének a kiiratása!
 			Console.WriteLine($"Ez az A és B változó összeadásának eredménye: {ab}");
@@ -35,7 +35,7 @@ namespace Szamologep
 		{
 			return szam % 2 == 0;
 		}
-		static bool Pozitiv(int szam)
+		static bool Pozitiv(double szam)
 		{
 			return szam >= 0;
 		}
