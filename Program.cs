@@ -26,14 +26,7 @@ namespace Szamologep
 			Console.WriteLine($"Ez az A és B változó szorzásának eredménye: {ab4}");
 		}
 
-		static bool Paros(int szam)
-		{
-			return szam % 2 == 0;
-		}
-		static bool Pozitiv(double szam)
-		{
-			return szam >= 0;
-		}
+		
 	}
 }
 
