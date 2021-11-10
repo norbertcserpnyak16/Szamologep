@@ -8,7 +8,6 @@ namespace Szamologep
 
 		static void Main(string[] args)
 		{
-
 			//változókkal való műveletek!
 			Console.WriteLine("Írj be egy számot!");
 			double a = double.Parse(Console.ReadLine());
