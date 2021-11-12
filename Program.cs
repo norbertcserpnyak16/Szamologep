@@ -13,16 +13,16 @@ namespace Szamologep
 			double a = double.Parse(Console.ReadLine());
 			Console.WriteLine("Írj be még egy számot!");
 			double b = double.Parse(Console.ReadLine());
-			double ab = Math.Round(a + b, 4);
-			double ab2 = Math.Round(a - b, 4);
-			double ab3 = Math.Round(a * b, 4);
-			double ab4 = Math.Round(a / b, 4);
+			double osszeadas = Math.Round(a + b, 4);
+			double kivonas = Math.Round(a - b, 4);
+			double szorzas = Math.Round(a * b, 4);
+			double osztas = Math.Round(a / b, 4);
 
 			//Változókkal való müveletek eredményének a kiiratása!
-			Console.WriteLine($"Ez az A és B változó összeadásának eredménye: {ab}");
-			Console.WriteLine($"Ez az A és B változó kivonásának eredménye: {ab2}");
-			Console.WriteLine($"Ez az A és B változó szorzásának eredménye: {ab3}");
-			Console.WriteLine($"Ez az A és B változó szorzásának eredménye: {ab4}");
+			Console.WriteLine($"Ez az A és B változó összeadásának eredménye: {osszeadas}");
+			Console.WriteLine($"Ez az A és B változó kivonásának eredménye: {kivonas}");
+			Console.WriteLine($"Ez az A és B változó szorzásának eredménye: {szorzas}");
+			Console.WriteLine($"Ez az A és B változó szorzásának eredménye: {osztas}");
 		}
 
 		
